@@ -1,6 +1,7 @@
 from math import sqrt
 from queue import PriorityQueue
 
+# Implements Huntington–Hill method.
 def apportion(house_size, entitlement):
     length = len(entitlement)
     apportionment = [1 for i in range(length)]
